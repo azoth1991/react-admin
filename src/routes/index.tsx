@@ -4,10 +4,10 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import DocumentTitle from 'react-document-title';
-import AllComponents from '../components';
+import AllComponents from '../pages';
 import routesConfig, { IFMenuBase, IFMenu } from './config';
 import queryString from 'query-string';
-import { checkLogin } from '../utils';
+import { checkLogin } from '../lib/utils';
 
 type CRouterProps = {
     auth: any;
