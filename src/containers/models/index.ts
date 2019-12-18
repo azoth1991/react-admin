@@ -1,5 +1,5 @@
 import { createModel } from '@rematch/core'
-import { defaultState, appState, selectAppState } from './state'
+import { defaultState, appState } from './state'
 
 export const app = createModel({
   state: defaultState,
